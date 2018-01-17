@@ -11,7 +11,7 @@ import UIKit
 class MyTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var myCollectionView: SubCollectionView!
+    @IBOutlet weak var myCollectionView: UICollectionViewCell!
     @IBOutlet weak var lblHeader: UILabel!
     
     required init?(coder aDecoder: NSCoder) {
